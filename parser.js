@@ -295,7 +295,11 @@ AtRule.registry = {
 	'document': 'rule',
 	'font-feature-values': 'declaration',
 	'viewport': '',
-	'region-style': 'rule'
+	'region-style': 'rule',
+	'-webkit-keyframes': 'rule',
+	'-moz-keyframes': 'rule',
+	'-o-keyframes': 'rule',
+	'-ms-keyframes': 'rule'
 };
 
 function StyleRule() {
